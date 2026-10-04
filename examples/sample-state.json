@@ -1,0 +1,38 @@
+{
+  "CapturedAt": "2026-10-03T14:00:00.0000000Z",
+  "SubscriptionId": "00000000-0000-0000-0000-000000000000",
+  "ResourceGroupName": "rg-arc-prod",
+  "MachineName": "oldbox02",
+  "ResourceId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-arc-prod/providers/Microsoft.HybridCompute/machines/oldbox02",
+  "Location": "eastus2",
+  "OSName": "windows",
+  "AgentVersion": "1.99.0000.0",
+  "Tags": { "env": "prod", "owner": "platform-team" },
+  "PrincipalId": "11111111-1111-1111-1111-111111111111",
+  "RoleAssignments": [
+    {
+      "RoleDefinitionName": "Key Vault Secrets User",
+      "RoleDefinitionId": "4633458b-17de-408a-b874-0445c86b69e6",
+      "Scope": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-shared/providers/Microsoft.KeyVault/vaults/kv-shared"
+    }
+  ],
+  "Extensions": [
+    {
+      "Name": "AzureMonitorWindowsAgent",
+      "Publisher": "Microsoft.Azure.Monitor",
+      "ExtensionType": "AzureMonitorWindowsAgent",
+      "TypeHandlerVersion": "1.0",
+      "AutoUpgradeMinorVersion": true,
+      "EnableAutomaticUpgrade": true,
+      "Settings": {}
+    }
+  ],
+  "DcrAssociations": [
+    {
+      "Name": "dcr-windows-perf",
+      "DataCollectionRuleId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-monitor/providers/Microsoft.Insights/dataCollectionRules/dcr-windows-perf",
+      "DataCollectionEndpointId": null,
+      "Description": null
+    }
+  ]
+}
