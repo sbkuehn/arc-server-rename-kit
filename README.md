@@ -1,4 +1,4 @@
-# arc-server-rename-kit
+# Azure Arc Server Rename Kit
 
 Scripts and a runbook for renaming an Azure Arc-enabled server without losing track of what was attached to it. Built by [Shannon Eldridge-Kuehn](https://github.com/sbkuehn) as the companion repo for the Cloudy Musings post on Azure Arc resource immutability.
 
