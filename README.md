@@ -1,6 +1,6 @@
 # Azure Arc Server Rename Kit
 
-Copyright (c) September 2026
+Copyright (c) October 2026
 Shannon Eldridge-Kuehn
 
 Scripts and a runbook for renaming an Azure Arc-enabled server without losing track of what was attached to the server.
